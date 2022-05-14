@@ -11,41 +11,17 @@ public class TwoWheeler {
 	
 	//Create object for TwoWheeler and call all the variables inside main method and print the values.
 	
-	public void noOfWheels() {
-		System.out.println("No of Wheels = " + noOfWheels );
-	}
-		
-	public void noOfMirrors() {
-		System.out.println("No of Mirrors  = " + noOfMirrors );
-	}
 	
-	public void chassisNumber() {
-		System.out.println("Chassis Number is = " + chassisNumber );
-	}
-	
-	public void Punctured() {
-		System.out.println("Is Bike Punctured = " + isPunctured );
-	}
-	
-	public void bikeName() {
-		System.out.println("Bike Name is = " + bikeName );
-	}
-	
-	public void runningKM() {
-		System.out.println("runningKM = " + runningKM );
-	}
-	
-		
 	public static void main(String[] args) {
 		
 		TwoWheeler ActivaBike = new TwoWheeler();
 		
-		ActivaBike.noOfWheels();
-		ActivaBike.noOfMirrors();
-		ActivaBike.chassisNumber();
-		ActivaBike.Punctured();
-		ActivaBike.bikeName();
-		ActivaBike.runningKM();
+		System.out.println("No of Wheels =" + ActivaBike.noOfWheels);
+		System.out.println("No of Mirrors  = " + ActivaBike.noOfMirrors);
+		System.out.println("Chassis Number is = " + ActivaBike.chassisNumber);
+		System.out.println("Is Bike Punctured = " + ActivaBike.isPunctured);
+		System.out.println("Bike Name is = " + ActivaBike.bikeName);
+		System.out.println("runningKM = " + ActivaBike.runningKM);
 		
 		
 				
